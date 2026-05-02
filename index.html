@@ -3,7 +3,73 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Imperio Federal Logistics</title>
+    <title>
+      Imperio Federal Logistics | SDVOSB Federal Contract Services | DLA · DIBBS
+      · SLED
+    </title>
+    <meta
+      name="description"
+      content="SDVOSB federal contract services — DLA/DIBBS solicitations, supplier sourcing, and set-aside awards. Veteran-owned, CAGE 152U4, VetHUB registered. Serving federal agencies, SLED, and ESBD markets from Killeen, TX."
+    />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": ["GovernmentService", "LocalBusiness"],
+        "@id": "https://ifedlog.com/#organization",
+        "name": "Imperio Federal Logistics",
+        "legalName": "The House of Kel LLC",
+        "alternateName": ["IFL", "Imperio FL", "Imperio Federal"],
+        "url": "https://ifedlog.com",
+        "logo": "https://ifedlog.com/ifl_banner.png",
+        "image": "https://ifedlog.com/ifl_banner.png",
+        "description": "SDVOSB federal contract services — DLA/DIBBS solicitations, supplier sourcing, set-aside awards, and government supply chain execution. Veteran-owned small business. CAGE 152U4. Killeen, Texas.",
+        "telephone": "+1-254-226-5216",
+        "email": "anthony@ifedlog.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Killeen",
+          "addressRegion": "TX",
+          "addressCountry": "US"
+        },
+        "areaServed": "US",
+        "identifier": [
+          { "@type": "PropertyValue", "name": "CAGE", "value": "152U4" },
+          { "@type": "PropertyValue", "name": "SDVOSB", "value": "Certified" }
+        ],
+        "founder": {
+          "@type": "Person",
+          "name": "Anthony K. Kelley Sr.",
+          "jobTitle": "Founder & CEO",
+          "url": "https://www.linkedin.com/in/anthony-k-kelley-sr/"
+        },
+        "parentOrganization": {
+          "@type": "Organization",
+          "name": "The House of Kel LLC",
+          "url": "https://thehouseofkel.com",
+          "sameAs": [
+            "https://imperiovita.co",
+            "https://thehouseofkel.com",
+            "https://www.linkedin.com/in/anthony-k-kelley-sr/"
+          ]
+        },
+        "serviceType": [
+          "Federal Supply Contracting",
+          "DLA DIBBS Solicitations",
+          "Government Procurement",
+          "SDVOSB Set-Aside Contracting",
+          "Federal Contract Services"
+        ],
+        "sameAs": [
+          "https://imperiovita.co",
+          "https://thehouseofkel.com",
+          "https://www.linkedin.com/in/anthony-k-kelley-sr/"
+        ]
+      }
+    </script>
+
     <link
       href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&display=swap"
       rel="stylesheet"
@@ -47,9 +113,6 @@
         overflow-x: hidden;
       }
 
-      /* ============================================
-         METALLIC TEXT - gradient clipped to text + slow shimmer
-      ============================================ */
       .metal-text-gold {
         background: linear-gradient(
           110deg,
@@ -70,7 +133,6 @@
           drop-shadow(0 0 18px rgba(207, 151, 45, 0.35));
         animation: shimmerSlow 8s linear infinite;
       }
-
       .metal-text-red {
         background: linear-gradient(
           110deg,
@@ -91,7 +153,6 @@
           drop-shadow(0 0 18px rgba(232, 23, 10, 0.45));
         animation: shimmerSlow 8s linear infinite;
       }
-
       .metal-text-blue {
         background: linear-gradient(
           110deg,
@@ -112,7 +173,6 @@
           drop-shadow(0 0 18px rgba(26, 80, 208, 0.45));
         animation: shimmerSlow 8s linear infinite;
       }
-
       .metal-text-silver {
         background: linear-gradient(
           110deg,
@@ -133,7 +193,6 @@
           drop-shadow(0 0 14px rgba(255, 255, 255, 0.2));
         animation: shimmerSlow 10s linear infinite;
       }
-
       @keyframes shimmerSlow {
         0% {
           background-position: -150% 50%;
@@ -143,10 +202,6 @@
         }
       }
 
-      /* ============================================
-         METALLIC PANEL BASE
-         Brushed grain + diagonal highlight + base gradient.
-      ============================================ */
       .panel,
       .panel-red,
       .panel-blue,
@@ -154,7 +209,6 @@
         position: relative;
         overflow: hidden;
       }
-
       .panel {
         background:
           repeating-linear-gradient(
@@ -174,7 +228,6 @@
           ),
           linear-gradient(160deg, #1c191f 0%, #0e0c10 55%, #050407 100%);
       }
-
       .panel-red {
         background:
           repeating-linear-gradient(
@@ -194,7 +247,6 @@
           ),
           linear-gradient(160deg, #2a0a0e 0%, #160508 55%, #080203 100%);
       }
-
       .panel-blue {
         background:
           repeating-linear-gradient(
@@ -214,7 +266,6 @@
           ),
           linear-gradient(160deg, #0a1428 0%, #050a18 55%, #02050c 100%);
       }
-
       .panel-gold {
         background:
           repeating-linear-gradient(
@@ -234,8 +285,6 @@
           ),
           linear-gradient(160deg, #2a1d08 0%, #160e04 55%, #080502 100%);
       }
-
-      /* Top edge highlight - forged seam */
       .panel::before,
       .panel-red::before,
       .panel-blue::before,
@@ -282,16 +331,12 @@
         );
       }
 
-      /* ============================================
-         TINTED SHEEN SWEEP - colored highlight on hover
-      ============================================ */
       .sheen-red,
       .sheen-gold,
       .sheen-blue,
       .sheen-silver {
         position: relative;
       }
-
       .sheen-red::after,
       .sheen-gold::after,
       .sheen-blue::after,
@@ -308,7 +353,6 @@
         z-index: 4;
         mix-blend-mode: screen;
       }
-
       .sheen-red::after {
         background: linear-gradient(
           110deg,
@@ -321,7 +365,6 @@
           transparent 100%
         );
       }
-
       .sheen-gold::after {
         background: linear-gradient(
           110deg,
@@ -334,7 +377,6 @@
           transparent 100%
         );
       }
-
       .sheen-blue::after {
         background: linear-gradient(
           110deg,
@@ -347,7 +389,6 @@
           transparent 100%
         );
       }
-
       .sheen-silver::after {
         background: linear-gradient(
           110deg,
@@ -360,7 +401,6 @@
           transparent 100%
         );
       }
-
       .sheen-red:hover::after,
       .sheen-gold:hover::after,
       .sheen-blue:hover::after,
@@ -368,9 +408,7 @@
         left: 130%;
       }
 
-      /* ============================================
-         HERO
-      ============================================ */
+      /* HERO */
       .hero {
         position: relative;
         min-height: 100vh;
@@ -381,7 +419,6 @@
         overflow: hidden;
         background: #000;
       }
-
       .hero-bg {
         position: absolute;
         inset: 0;
@@ -391,13 +428,11 @@
           #000 70%
         );
       }
-
       .speed-lines {
         position: absolute;
         inset: 0;
         overflow: hidden;
       }
-
       .speed-lines::before {
         content: "";
         position: absolute;
@@ -424,7 +459,6 @@
         );
         animation: streakSlide 4s linear infinite;
       }
-
       .speed-lines::after {
         content: "";
         position: absolute;
@@ -443,7 +477,6 @@
         );
         animation: streakSlide 6s linear infinite reverse;
       }
-
       @keyframes streakSlide {
         from {
           transform: translateX(-8%);
@@ -452,13 +485,11 @@
           transform: translateX(8%);
         }
       }
-
       .stars-field {
         position: absolute;
         inset: 0;
         overflow: hidden;
       }
-
       .star {
         position: absolute;
         background: white;
@@ -478,7 +509,6 @@
         animation: starPulse var(--dur, 3s) var(--delay, 0s) ease-in-out
           infinite;
       }
-
       @keyframes starPulse {
         0%,
         100% {
@@ -490,7 +520,6 @@
           transform: scale(1);
         }
       }
-
       .beam-left {
         position: absolute;
         left: -10%;
@@ -504,7 +533,6 @@
         );
         animation: beamPulse 4s ease-in-out infinite;
       }
-
       .beam-right {
         position: absolute;
         right: -10%;
@@ -518,7 +546,6 @@
         );
         animation: beamPulse 4s ease-in-out infinite 2s;
       }
-
       .beam-bottom {
         position: absolute;
         bottom: 0;
@@ -531,7 +558,6 @@
           transparent 65%
         );
       }
-
       @keyframes beamPulse {
         0%,
         100% {
@@ -541,7 +567,6 @@
           opacity: 0.6;
         }
       }
-
       .gold-streak {
         position: absolute;
         width: 100%;
@@ -558,7 +583,6 @@
         animation: streakH 3s ease-in-out infinite;
         filter: blur(1px);
       }
-
       .gold-streak-2 {
         position: absolute;
         width: 100%;
@@ -575,7 +599,6 @@
         animation: streakH 3s ease-in-out infinite 1.5s;
         filter: blur(0.5px);
       }
-
       @keyframes streakH {
         0%,
         100% {
@@ -587,7 +610,6 @@
           transform: scaleX(1);
         }
       }
-
       .hero-content {
         position: relative;
         z-index: 10;
@@ -597,14 +619,11 @@
         text-align: center;
         padding: 0 24px;
       }
-
       .hero-logo {
-        width: min(500vw, 85vw);
         filter: drop-shadow(0 0 80px rgba(207, 151, 45, 0.5))
           drop-shadow(0 0 30px rgba(232, 23, 10, 0.4));
         animation: logoEntry 1.4s cubic-bezier(0.16, 1, 0.3, 1) both;
       }
-
       @keyframes logoEntry {
         from {
           opacity: 0;
@@ -616,7 +635,6 @@
           transform: scale(1) translateY(0);
         }
       }
-
       .hero-sub {
         font-size: clamp(1rem, 2vw, 1.25rem);
         font-style: italic;
@@ -627,7 +645,6 @@
         margin: 32px 0 48px;
         animation: fadeUp 1s 1s both;
       }
-
       .hero-cta {
         animation: fadeUp 1s 1.25s both;
         display: flex;
@@ -635,7 +652,6 @@
         flex-wrap: wrap;
         justify-content: center;
       }
-
       @keyframes fadeUp {
         from {
           opacity: 0;
@@ -647,9 +663,7 @@
         }
       }
 
-      /* ============================================
-         BUTTONS - METALLIC
-      ============================================ */
+      /* BUTTONS */
       .btn-primary {
         font-family: "Cinzel", serif;
         font-size: 0.72rem;
@@ -685,7 +699,6 @@
           inset 0 -1px 0 rgba(0, 0, 0, 0.35);
         clip-path: polygon(12px 0%, 100% 0%, calc(100% - 12px) 100%, 0% 100%);
       }
-
       .btn-primary:hover {
         background-position: 100% 50%;
         transform: translateY(-3px);
@@ -695,7 +708,6 @@
           inset 0 1px 0 rgba(255, 255, 255, 0.6),
           inset 0 -1px 0 rgba(0, 0, 0, 0.35);
       }
-
       .btn-ghost {
         font-family: "Cinzel", serif;
         font-size: 0.72rem;
@@ -722,7 +734,6 @@
           transform 0.3s;
         clip-path: polygon(12px 0%, 100% 0%, calc(100% - 12px) 100%, 0% 100%);
       }
-
       .btn-ghost::after {
         content: "";
         position: absolute;
@@ -740,11 +751,9 @@
         transition: left 0.85s cubic-bezier(0.2, 0.8, 0.2, 1);
         mix-blend-mode: screen;
       }
-
       .btn-ghost:hover::after {
         left: 130%;
       }
-
       .btn-ghost:hover {
         border-color: rgba(201, 168, 76, 0.65);
         color: var(--gold-soft);
@@ -752,9 +761,7 @@
         transform: translateY(-2px);
       }
 
-      /* ============================================
-         SCROLL INDICATOR
-      ============================================ */
+      /* SCROLL INDICATOR */
       .scroll-indicator {
         position: absolute;
         bottom: 36px;
@@ -764,14 +771,12 @@
         opacity: 0.4;
         animation: fadeUp 1s 2s both;
       }
-
       .scroll-line {
         width: 1px;
         height: 40px;
         background: linear-gradient(to bottom, var(--gold-soft), transparent);
         animation: scrollDrop 2s ease-in-out infinite;
       }
-
       @keyframes scrollDrop {
         0% {
           transform: scaleY(0);
@@ -791,9 +796,7 @@
         }
       }
 
-      /* ============================================
-         FLAG DIVIDER
-      ============================================ */
+      /* FLAG DIVIDER */
       .flag-divider {
         width: 100%;
         height: 6px;
@@ -808,7 +811,6 @@
         );
         position: relative;
       }
-
       .flag-divider::after {
         content: "";
         position: absolute;
@@ -818,9 +820,7 @@
         opacity: 0.6;
       }
 
-      /* ============================================
-         STAT BAR
-      ============================================ */
+      /* STAT BAR */
       .stat-bar {
         display: flex;
         justify-content: center;
@@ -828,16 +828,15 @@
         gap: 0;
         position: relative;
       }
-
       .stat {
         flex: 1;
-        min-width: 180px;
-        padding: 48px 32px;
+        min-width: 160px;
+        padding: 48px 16px;
         text-align: center;
         position: relative;
         z-index: 2;
+        overflow: hidden;
       }
-
       .stat + .stat::before {
         content: "";
         position: absolute;
@@ -853,17 +852,18 @@
         );
         z-index: 4;
       }
-
       .stat-number {
         font-family: "Cinzel", serif;
-        font-size: clamp(2rem, 5vw, 3.5rem);
+        font-size: clamp(1.4rem, 3.2vw, 2.6rem);
         font-weight: 900;
         line-height: 1;
         margin-bottom: 12px;
         position: relative;
         z-index: 4;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
       }
-
       .stat-label {
         font-family: "Cinzel", serif;
         font-size: 0.62rem;
@@ -874,20 +874,16 @@
         z-index: 4;
       }
 
-      /* ============================================
-         SECTION SHELL
-      ============================================ */
+      /* SECTION SHELL */
       .section-full {
         padding: 100px 48px;
         position: relative;
       }
-
       .section-red-bg {
         background: linear-gradient(180deg, #000 0%, #0d0000 50%, #000 100%);
         position: relative;
         overflow: hidden;
       }
-
       .section-red-bg::before {
         content: "";
         position: absolute;
@@ -905,13 +901,11 @@
           );
         pointer-events: none;
       }
-
       .section-blue-bg {
         background: linear-gradient(180deg, #000 0%, #00000d 50%, #000 100%);
         position: relative;
         overflow: hidden;
       }
-
       .section-blue-bg::before {
         content: "";
         position: absolute;
@@ -923,14 +917,12 @@
         );
         pointer-events: none;
       }
-
       .section-inner {
         max-width: 1200px;
         margin: 0 auto;
         position: relative;
         z-index: 1;
       }
-
       .eyebrow {
         font-family: "Cinzel", serif;
         font-size: 0.64rem;
@@ -940,7 +932,6 @@
         margin-bottom: 18px;
         font-weight: 700;
       }
-
       .section-title {
         font-family: "Cinzel", serif;
         font-size: clamp(1.9rem, 4.2vw, 3.2rem);
@@ -951,7 +942,6 @@
         line-height: 1.1;
         margin-bottom: 20px;
       }
-
       .section-body {
         font-size: clamp(1rem, 1.8vw, 1.2rem);
         font-weight: 300;
@@ -963,15 +953,12 @@
         color: rgba(245, 240, 232, 0.78);
       }
 
-      /* ============================================
-         CAPABILITY CARDS
-      ============================================ */
+      /* CAPABILITY CARDS */
       .cards-grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
         gap: 4px;
       }
-
       .cap-card {
         padding: 46px 36px;
         position: relative;
@@ -982,7 +969,6 @@
           box-shadow 0.4s;
         cursor: default;
       }
-
       .cap-card.accent-red {
         border-left-color: rgba(232, 23, 10, 0.65);
       }
@@ -992,11 +978,9 @@
       .cap-card.accent-blue {
         border-left-color: rgba(26, 80, 208, 0.65);
       }
-
       .cap-card:hover {
         transform: translateX(4px);
       }
-
       .cap-card.accent-red:hover {
         border-left-color: var(--red-2);
         box-shadow:
@@ -1018,7 +1002,6 @@
           -4px 0 30px rgba(26, 80, 208, 0.4),
           0 0 50px rgba(26, 80, 208, 0.15);
       }
-
       .cap-icon {
         font-size: 2.3rem;
         margin-bottom: 22px;
@@ -1026,7 +1009,6 @@
         position: relative;
         z-index: 5;
       }
-
       .cap-title {
         font-family: "Cinzel", serif;
         font-size: 0.85rem;
@@ -1037,7 +1019,6 @@
         position: relative;
         z-index: 5;
       }
-
       .cap-body {
         font-size: 0.96rem;
         font-weight: 300;
@@ -1047,9 +1028,7 @@
         z-index: 5;
       }
 
-      /* ============================================
-         WHO WE ARE TILES
-      ============================================ */
+      /* WHO WE ARE */
       .who-grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
@@ -1057,7 +1036,6 @@
         max-width: 1100px;
         margin: 0 auto;
       }
-
       .who-tile {
         padding: 50px 36px;
         position: relative;
@@ -1066,11 +1044,9 @@
           box-shadow 0.4s,
           transform 0.4s;
       }
-
       .who-tile:hover {
         transform: translateY(-3px);
       }
-
       .who-tile.accent-red:hover {
         box-shadow:
           inset 0 0 80px rgba(232, 23, 10, 0.1),
@@ -1091,7 +1067,6 @@
           inset 0 0 80px rgba(255, 255, 255, 0.05),
           0 6px 40px rgba(255, 255, 255, 0.18);
       }
-
       .who-num {
         font-family: "Cinzel", serif;
         font-size: 0.62rem;
@@ -1101,7 +1076,6 @@
         position: relative;
         z-index: 5;
       }
-
       .who-title {
         font-family: "Cinzel", serif;
         font-size: 1.05rem;
@@ -1112,7 +1086,6 @@
         position: relative;
         z-index: 5;
       }
-
       .who-body {
         font-size: 1rem;
         font-weight: 300;
@@ -1122,9 +1095,45 @@
         z-index: 5;
       }
 
-      /* ============================================
-         CTA / CONTACT SECTION
-      ============================================ */
+      /* NAICS BLOCK */
+      .naics-block {
+        margin-top: 64px;
+        padding: 40px 36px;
+        border-left: 3px solid rgba(201, 168, 76, 0.5);
+        position: relative;
+      }
+      .naics-title {
+        font-family: "Cinzel", serif;
+        font-size: 0.78rem;
+        letter-spacing: 0.35em;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-bottom: 24px;
+      }
+      .naics-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 16px;
+      }
+      .naics-item {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+      }
+      .naics-code {
+        font-family: "Cinzel", serif;
+        font-size: 1rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+      }
+      .naics-desc {
+        font-size: 0.88rem;
+        font-weight: 300;
+        color: rgba(245, 240, 232, 0.6);
+        line-height: 1.4;
+      }
+
+      /* CTA / CONTACT */
       .cta-section {
         position: relative;
         padding: 120px 48px 90px;
@@ -1132,7 +1141,6 @@
         overflow: hidden;
         background: #000;
       }
-
       .cta-section::before {
         content: "";
         position: absolute;
@@ -1154,14 +1162,12 @@
             transparent 50%
           );
       }
-
       .cta-content {
         position: relative;
         z-index: 1;
         max-width: 1200px;
         margin: 0 auto;
       }
-
       .cta-star {
         font-size: 2.5rem;
         margin-bottom: 24px;
@@ -1169,7 +1175,6 @@
         filter: drop-shadow(0 0 20px rgba(207, 151, 45, 0.8));
         animation: starGlow 2s ease-in-out infinite;
       }
-
       @keyframes starGlow {
         0%,
         100% {
@@ -1181,16 +1186,13 @@
         }
       }
 
-      /* ============================================
-         CHEVRON CONTACT TILES - rebuilt
-      ============================================ */
+      /* CHEVRON TILES */
       .chev-row {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         gap: 12px;
         margin-top: 72px;
       }
-
       .chev {
         position: relative;
         display: flex;
@@ -1214,11 +1216,9 @@
           0% 50%
         );
       }
-
       .chev:hover {
         transform: translateY(-4px);
       }
-
       .chev.accent-red:hover {
         box-shadow:
           0 0 0 1px rgba(232, 23, 10, 0.4),
@@ -1234,7 +1234,6 @@
           0 0 0 1px rgba(26, 80, 208, 0.4),
           0 0 35px rgba(26, 80, 208, 0.35);
       }
-
       .chev-label {
         font-family: "Cinzel", serif;
         font-size: 0.68rem;
@@ -1248,7 +1247,6 @@
           color 0.4s,
           text-shadow 0.4s;
       }
-
       .chev-value {
         font-family: "Cinzel", serif;
         font-size: clamp(0.78rem, 1vw, 0.95rem);
@@ -1259,8 +1257,6 @@
         transition: text-shadow 0.4s;
         white-space: nowrap;
       }
-
-      /* LIT STATE - persistent after click */
       .chev.lit-red {
         box-shadow:
           0 0 0 1px rgba(232, 23, 10, 0.6),
@@ -1272,7 +1268,6 @@
         color: var(--red-3);
         text-shadow: 0 0 12px rgba(232, 23, 10, 0.7);
       }
-
       .chev.lit-gold {
         box-shadow:
           0 0 0 1px rgba(207, 151, 45, 0.65),
@@ -1284,7 +1279,6 @@
         color: var(--gold-2);
         text-shadow: 0 0 12px rgba(207, 151, 45, 0.7);
       }
-
       .chev.lit-blue {
         box-shadow:
           0 0 0 1px rgba(26, 80, 208, 0.6),
@@ -1297,16 +1291,13 @@
         text-shadow: 0 0 12px rgba(26, 80, 208, 0.7);
       }
 
-      /* ============================================
-         FOOTER
-      ============================================ */
+      /* FOOTER */
       footer {
         position: relative;
         padding: 60px 48px 50px;
         background: #000;
         overflow: hidden;
       }
-
       .footer-metal {
         position: absolute;
         inset: 0;
@@ -1326,7 +1317,6 @@
           ),
           linear-gradient(180deg, #14111a 0%, #08070a 100%);
       }
-
       .footer-metal::before {
         content: "";
         position: absolute;
@@ -1343,7 +1333,6 @@
           transparent 100%
         );
       }
-
       .footer-inner {
         position: relative;
         z-index: 2;
@@ -1353,7 +1342,6 @@
         flex-direction: column;
         gap: 36px;
       }
-
       .footer-top {
         display: flex;
         align-items: center;
@@ -1361,7 +1349,6 @@
         gap: 24px;
         flex-wrap: wrap;
       }
-
       .footer-brand {
         font-family: "Cinzel", serif;
         font-size: clamp(1.1rem, 1.8vw, 1.4rem);
@@ -1369,7 +1356,6 @@
         letter-spacing: 0.22em;
         text-transform: uppercase;
       }
-
       .footer-brand-sub {
         font-family: "Cormorant Garamond", serif;
         font-style: italic;
@@ -1379,13 +1365,11 @@
         letter-spacing: 0.05em;
         margin-top: 6px;
       }
-
       .footer-badges {
         display: flex;
         gap: 8px;
         flex-wrap: wrap;
       }
-
       .fb {
         font-family: "Cinzel", serif;
         font-size: 0.74rem;
@@ -1408,7 +1392,6 @@
           box-shadow 0.4s,
           border-color 0.4s;
       }
-
       .fb-red {
         color: var(--red-2);
         border-color: rgba(232, 23, 10, 0.5);
@@ -1421,7 +1404,6 @@
         color: var(--blue-2);
         border-color: rgba(68, 102, 204, 0.5);
       }
-
       .fb-red:hover {
         box-shadow: 0 0 25px rgba(232, 23, 10, 0.4);
         border-color: var(--red-2);
@@ -1434,7 +1416,6 @@
         box-shadow: 0 0 25px rgba(26, 80, 208, 0.4);
         border-color: var(--blue-2);
       }
-
       .footer-divider {
         height: 1px;
         background: linear-gradient(
@@ -1444,7 +1425,6 @@
           transparent
         );
       }
-
       .footer-bottom {
         display: flex;
         align-items: center;
@@ -1452,7 +1432,6 @@
         gap: 16px;
         flex-wrap: wrap;
       }
-
       .footer-meta {
         font-family: "Cinzel", serif;
         font-size: 0.7rem;
@@ -1460,12 +1439,10 @@
         text-transform: uppercase;
         color: rgba(245, 240, 232, 0.55);
       }
-
       .footer-meta strong {
         color: var(--gold-soft);
         font-weight: 700;
       }
-
       .footer-legal {
         font-size: 0.88rem;
         color: rgba(245, 240, 232, 0.42);
@@ -1473,9 +1450,7 @@
         font-style: italic;
       }
 
-      /* ============================================
-         NAV
-      ============================================ */
+      /* NAV */
       nav {
         position: fixed;
         top: 0;
@@ -1488,13 +1463,11 @@
         justify-content: space-between;
         transition: background 0.4s;
       }
-
       nav.scrolled {
         background: rgba(0, 0, 0, 0.92);
         border-bottom: 1px solid rgba(201, 168, 76, 0.18);
         backdrop-filter: blur(10px);
       }
-
       .nav-brand {
         font-family: "Cinzel", serif;
         font-size: 0.8rem;
@@ -1502,13 +1475,11 @@
         letter-spacing: 0.25em;
         text-transform: uppercase;
       }
-
       .nav-links {
         display: flex;
         gap: 36px;
         list-style: none;
       }
-
       .nav-links a {
         font-family: "Cinzel", serif;
         font-size: 0.66rem;
@@ -1518,12 +1489,10 @@
         text-decoration: none;
         transition: color 0.3s;
       }
-
       .nav-links a:hover {
         color: var(--gold-soft);
       }
 
-      /* Reveal animation */
       .reveal {
         opacity: 0;
         transform: translateY(28px);
@@ -1536,16 +1505,252 @@
         transform: translateY(0);
       }
 
-      /* ============================================
-         RESPONSIVE
-      ============================================ */
+      /* FOUNDER */
+      .founder-section {
+        position: relative;
+        padding: 100px 48px;
+        background: linear-gradient(180deg, #000 0%, #080003 50%, #000 100%);
+        overflow: hidden;
+      }
+      .founder-section::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background:
+          radial-gradient(
+            ellipse 70% 70% at 50% 50%,
+            rgba(232, 23, 10, 0.1) 0%,
+            transparent 60%
+          ),
+          radial-gradient(
+            ellipse 40% 40% at 10% 50%,
+            rgba(207, 151, 45, 0.08) 0%,
+            transparent 60%
+          ),
+          radial-gradient(
+            ellipse 40% 40% at 90% 50%,
+            rgba(26, 80, 208, 0.08) 0%,
+            transparent 60%
+          );
+        pointer-events: none;
+      }
+      .founder-container {
+        position: relative;
+        z-index: 2;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1.4fr 1fr;
+        gap: 48px;
+        align-items: center;
+      }
+      .founder-portrait {
+        position: relative;
+        border: 1px solid rgba(201, 168, 76, 0.3);
+        overflow: hidden;
+        background: #000;
+      }
+      .founder-portrait img {
+        width: 100%;
+        display: block;
+        filter: brightness(0.92);
+        transition: filter 0.4s;
+      }
+      .founder-portrait:hover img {
+        filter: brightness(1);
+      }
+      .founder-corner {
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        border-color: rgba(201, 168, 76, 0.7);
+        border-style: solid;
+        z-index: 5;
+      }
+      .founder-corner-tl {
+        top: 10px;
+        left: 10px;
+        border-width: 2px 0 0 2px;
+      }
+      .founder-corner-tr {
+        top: 10px;
+        right: 10px;
+        border-width: 2px 2px 0 0;
+      }
+      .founder-corner-bl {
+        bottom: 10px;
+        left: 10px;
+        border-width: 0 0 2px 2px;
+      }
+      .founder-corner-br {
+        bottom: 10px;
+        right: 10px;
+        border-width: 0 2px 2px 0;
+      }
+      .founder-content {
+        text-align: center;
+        padding: 0 16px;
+      }
+      .founder-label {
+        font-family: "Cinzel", serif;
+        font-size: 0.62rem;
+        letter-spacing: 0.55em;
+        text-transform: uppercase;
+        color: rgba(201, 168, 76, 0.65);
+        margin-bottom: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 14px;
+      }
+      .founder-label::before,
+      .founder-label::after {
+        content: "";
+        flex: 1;
+        height: 1px;
+        background: linear-gradient(
+          90deg,
+          transparent,
+          rgba(201, 168, 76, 0.4)
+        );
+      }
+      .founder-label::after {
+        background: linear-gradient(
+          90deg,
+          rgba(201, 168, 76, 0.4),
+          transparent
+        );
+      }
+      .founder-quote {
+        font-family: "Cormorant Garamond", serif;
+        font-size: clamp(1rem, 1.6vw, 1.2rem);
+        font-style: italic;
+        font-weight: 300;
+        line-height: 1.85;
+        color: rgba(245, 240, 232, 0.82);
+        border-left: 2px solid rgba(201, 168, 76, 0.5);
+        padding-left: 20px;
+        text-align: left;
+        margin-bottom: 36px;
+      }
+      .founder-name {
+        font-family: "Cinzel", serif;
+        font-size: clamp(1.3rem, 2.2vw, 1.8rem);
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        margin-bottom: 10px;
+      }
+      .founder-title {
+        font-family: "Cinzel", serif;
+        font-size: 0.72rem;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: rgba(245, 240, 232, 0.65);
+        margin-bottom: 16px;
+        font-weight: 700;
+      }
+      .founder-credentials {
+        font-family: "Cormorant Garamond", serif;
+        font-size: 0.95rem;
+        font-weight: 300;
+        color: rgba(245, 240, 232, 0.55);
+        line-height: 1.6;
+      }
+
+      /* NETWORK */
+      .network-section {
+        position: relative;
+        padding: 80px 48px;
+        background: #000;
+        overflow: hidden;
+      }
+      .network-section::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: radial-gradient(
+          ellipse 80% 50% at 50% 50%,
+          rgba(26, 80, 208, 0.08) 0%,
+          transparent 65%
+        );
+        pointer-events: none;
+      }
+      .network-inner {
+        position: relative;
+        z-index: 2;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      .network-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 4px;
+        margin-top: 48px;
+      }
+      .net-tile {
+        padding: 36px 24px;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 14px;
+        transition:
+          transform 0.3s,
+          box-shadow 0.3s;
+        position: relative;
+      }
+      .net-tile:hover {
+        transform: translateY(-3px);
+      }
+      .net-tile.accent-gold:hover {
+        box-shadow:
+          inset 0 0 60px rgba(207, 151, 45, 0.08),
+          0 6px 35px rgba(207, 151, 45, 0.3);
+      }
+      .net-tile.accent-red:hover {
+        box-shadow:
+          inset 0 0 60px rgba(232, 23, 10, 0.08),
+          0 6px 35px rgba(232, 23, 10, 0.3);
+      }
+      .net-tile.accent-blue:hover {
+        box-shadow:
+          inset 0 0 60px rgba(26, 80, 208, 0.08),
+          0 6px 35px rgba(26, 80, 208, 0.3);
+      }
+      .net-label {
+        font-family: "Cinzel", serif;
+        font-size: 0.78rem;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+      .net-desc {
+        font-family: "Cormorant Garamond", serif;
+        font-size: 0.95rem;
+        font-style: italic;
+        font-weight: 300;
+        color: rgba(245, 240, 232, 0.6);
+        line-height: 1.5;
+      }
+
+      /* RESPONSIVE */
       @media (max-width: 900px) {
         .chev-row {
           grid-template-columns: repeat(2, 1fr);
           gap: 14px;
         }
+        .founder-container {
+          grid-template-columns: 1fr;
+          max-width: 560px;
+        }
+        .founder-portrait-mil {
+          display: none;
+        }
+        .founder-section {
+          padding: 72px 20px;
+        }
       }
-
       @media (max-width: 768px) {
         nav {
           padding: 16px 20px;
@@ -1568,8 +1773,10 @@
         footer {
           padding: 44px 24px;
         }
+        .network-section {
+          padding: 60px 20px;
+        }
       }
-
       @media (max-width: 520px) {
         .chev-row {
           grid-template-columns: 1fr;
@@ -1586,49 +1793,56 @@
       <ul class="nav-links">
         <li><a href="#capabilities">Capabilities</a></li>
         <li><a href="#who">Who We Are</a></li>
+        <li><a href="#founder">Founder</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
 
-    <!-- ===== HERO ===== -->
+    <!-- HERO -->
     <section class="hero">
       <div class="hero-bg"></div>
       <div class="speed-lines"></div>
       <div class="stars-field" id="starsField"></div>
-
       <div class="beam-left"></div>
       <div class="beam-right"></div>
       <div class="beam-bottom"></div>
-
       <div class="hero-content">
+        <h1
+          style="
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+          "
+        >
+          Imperio Federal Logistics — SDVOSB Federal Contract Services, DLA
+          DIBBS Supplier, Killeen TX
+        </h1>
         <img
           class="hero-logo"
           src="ifl_banner.png"
-          alt="Imperio Federal Logistics"
+          alt="Imperio Federal Logistics — SDVOSB federal contract services and DLA supply contractor, Killeen TX"
         />
         <p class="hero-sub">
           The government sales channel between American manufacturers and the
           agencies that need their products — winning DLA solicitations through
           speed, sourcing relationships, and set-aside access.
         </p>
-
         <div class="hero-cta">
-          <a href="#contact" class="btn-primary">Request a Quote</a>
+          <a href="#contact" class="btn-primary">Get in Touch</a>
           <a href="#who" class="btn-ghost">Who We Are</a>
         </div>
       </div>
-
       <div class="gold-streak"></div>
       <div class="gold-streak-2"></div>
-
-      <div class="scroll-indicator">
-        <div class="scroll-line"></div>
-      </div>
+      <div class="scroll-indicator"><div class="scroll-line"></div></div>
     </section>
 
     <div class="flag-divider"></div>
 
-    <!-- ===== STATS ===== -->
+    <!-- STATS -->
     <div class="panel stat-bar reveal">
       <div class="stat">
         <div class="stat-number metal-text-red">SDVOSB</div>
@@ -1648,12 +1862,14 @@
       </div>
     </div>
 
-    <!-- ===== CAPABILITIES ===== -->
+    <!-- CAPABILITIES -->
     <div class="section-full section-red-bg" id="capabilities">
       <div class="section-inner">
         <p class="eyebrow metal-text-red reveal">What We Do</p>
         <h2 class="section-title reveal">
-          <span class="metal-text-silver">Government Sales &amp;</span><br />
+          <span class="metal-text-silver"
+            >Government Contract Services &amp;</span
+          ><br />
           <span class="metal-text-red">Federal Supply</span>
         </h2>
         <p class="section-body reveal">
@@ -1663,7 +1879,6 @@
           Texas state procurement. Active on ESBD and SLED opportunities.
           Zero-cash execution via invoice factoring.
         </p>
-
         <div class="cards-grid reveal">
           <div class="cap-card panel sheen-red accent-red">
             <span class="cap-icon">🎖️</span>
@@ -1716,18 +1931,18 @@
           </div>
           <div class="cap-card panel sheen-blue accent-blue">
             <span class="cap-icon">🛡️</span>
-            <div class="cap-title metal-text-blue">CMMC L2 Alignment</div>
+            <div class="cap-title metal-text-blue">CMMC Level 2 Compliant</div>
             <p class="cap-body">
-              Cybersecurity posture aligned to CMMC Level 2 — enabling access to
-              contracts with CUI handling requirements as the defense industrial
-              base evolves.
+              Cybersecurity posture maintained at CMMC Level 2 — security
+              controls implemented to handle CUI requirements across the defense
+              industrial base as mandated by DoD policy.
             </p>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- ===== WHO WE ARE ===== -->
+    <!-- WHO WE ARE -->
     <div class="section-full section-blue-bg" id="who">
       <div class="section-inner">
         <p class="eyebrow metal-text-blue reveal">The Company</p>
@@ -1741,7 +1956,6 @@
           House of Kel LLC — a Texas-based, veteran-owned contractor
           purpose-built for the DLA and state procurement lanes.
         </p>
-
         <div class="who-grid reveal">
           <div class="who-tile panel-red sheen-red accent-red">
             <div class="who-num">01 / Origin</div>
@@ -1753,17 +1967,15 @@
               execution, no excuses.
             </p>
           </div>
-
           <div class="who-tile panel-gold sheen-gold accent-gold">
             <div class="who-num">02 / Posture</div>
             <div class="who-title metal-text-gold">Built for Federal</div>
             <p class="who-body">
               SDVOSB and VetHUB-certified. CAGE 152U4. Active on DLA DIBBS,
-              Texas ESBD, and SLED opportunities. CMMC Level 2 aligned to handle
-              CUI workflows as defense procurement modernizes.
+              Texas ESBD, and SLED opportunities. CMMC Level 2 compliant to
+              handle CUI workflows as defense procurement modernizes.
             </p>
           </div>
-
           <div class="who-tile panel-blue sheen-blue accent-blue">
             <div class="who-num">03 / Model</div>
             <div class="who-title metal-text-blue">
@@ -1775,7 +1987,6 @@
               PO funding and invoice factoring on every contract.
             </p>
           </div>
-
           <div class="who-tile panel sheen-silver accent-silver">
             <div class="who-num">04 / Edge</div>
             <div class="who-title metal-text-silver">Sourcing Network</div>
@@ -1785,7 +1996,6 @@
               every award into the start of a recurring supplier channel.
             </p>
           </div>
-
           <div class="who-tile panel-red sheen-red accent-red">
             <div class="who-num">05 / Discipline</div>
             <div class="who-title metal-text-red">Margin-First Bidding</div>
@@ -1795,7 +2005,6 @@
               doesn't. Predictable execution beats opportunistic chasing.
             </p>
           </div>
-
           <div class="who-tile panel-gold sheen-gold accent-gold">
             <div class="who-num">06 / Footprint</div>
             <div class="who-title metal-text-gold">Texas, National Reach</div>
@@ -1806,10 +2015,139 @@
             </p>
           </div>
         </div>
+
+        <!-- NAICS -->
+        <div class="naics-block panel-gold reveal">
+          <div class="naics-title metal-text-gold">
+            NAICS Codes · Active Procurement Lanes
+          </div>
+          <div class="naics-grid">
+            <div class="naics-item">
+              <span class="naics-code metal-text-red">332999</span>
+              <span class="naics-desc"
+                >All Other Miscellaneous Fabricated Metal Product
+                Manufacturing</span
+              >
+            </div>
+            <div class="naics-item">
+              <span class="naics-code metal-text-gold">339999</span>
+              <span class="naics-desc"
+                >All Other Miscellaneous Manufacturing</span
+              >
+            </div>
+            <div class="naics-item">
+              <span class="naics-code metal-text-blue">423840</span>
+              <span class="naics-desc"
+                >Industrial &amp; Personal Service Paper Merchant
+                Wholesalers</span
+              >
+            </div>
+            <div class="naics-item">
+              <span class="naics-code metal-text-silver">541614</span>
+              <span class="naics-desc"
+                >Process, Physical Distribution &amp; Logistics Consulting</span
+              >
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
-    <!-- ===== CTA / CONTACT ===== -->
+    <!-- FOUNDER -->
+    <section class="founder-section reveal" id="founder">
+      <div class="founder-container">
+        <div class="founder-portrait">
+          <span class="founder-corner founder-corner-tl"></span>
+          <span class="founder-corner founder-corner-tr"></span>
+          <span class="founder-corner founder-corner-bl"></span>
+          <span class="founder-corner founder-corner-br"></span>
+          <img
+            src="suitNoLabel.png"
+            alt="Anthony K. Kelley Sr., Founder & CEO of The House of Kel LLC — veteran entrepreneur and federal contractor"
+          />
+        </div>
+        <div class="founder-content">
+          <div class="founder-label">Founder</div>
+          <blockquote class="founder-quote">
+            After 21 years in the Army, I know what accountability looks like.
+            We source and fulfill Government supply requirements through
+            established distributor and manufacturer relationships — managed
+            with the same discipline and mission focus I brought to every
+            assignment. CAGE 152U4. SDVOSB | VetHUB. Built for the mission.
+          </blockquote>
+          <h3 class="founder-name metal-text-gold">Anthony K. Kelley</h3>
+          <p class="founder-title">Founder &amp; CEO, The House of Kel LLC</p>
+          <p class="founder-credentials">
+            21-year Army veteran. IT systems, logistics, and Government
+            contracting background. CAGE 152U4 &nbsp;|&nbsp; VetHUB
+            &nbsp;|&nbsp; SDVOSB.
+          </p>
+        </div>
+        <div class="founder-portrait founder-portrait-mil">
+          <span class="founder-corner founder-corner-tl"></span>
+          <span class="founder-corner founder-corner-tr"></span>
+          <span class="founder-corner founder-corner-bl"></span>
+          <span class="founder-corner founder-corner-br"></span>
+          <img
+            src="Trial_Mil_suit.png"
+            alt="Anthony K. Kelley Sr. in U.S. Army dress uniform — 21-year veteran, service-disabled, SDVOSB founder"
+          />
+        </div>
+      </div>
+    </section>
+
+    <div class="flag-divider"></div>
+
+    <!-- NETWORK -->
+    <section class="network-section">
+      <div class="network-inner">
+        <p class="eyebrow metal-text-blue reveal">The Network</p>
+        <h2 class="section-title reveal">
+          <span class="metal-text-silver">The House of Kel</span>
+          <span class="metal-text-gold"> Portfolio</span>
+        </h2>
+        <div class="network-grid reveal">
+          <a
+            href="https://imperiovita.co"
+            target="_blank"
+            rel="noopener"
+            class="net-tile panel sheen-gold accent-gold"
+          >
+            <span class="net-label metal-text-gold">Imperio Talent</span>
+            <span class="net-desc">Recruiting &amp; Contracting</span>
+          </a>
+          <a
+            href="https://imperiovita.co/contractor"
+            target="_blank"
+            rel="noopener"
+            class="net-tile panel sheen-red accent-red"
+          >
+            <span class="net-label metal-text-red">Contract Services</span>
+            <span class="net-desc">Procurement · Supplies · Personnel</span>
+          </a>
+          <a
+            href="https://thehouseofkel.com"
+            target="_blank"
+            rel="noopener"
+            class="net-tile panel sheen-blue accent-blue"
+          >
+            <span class="net-label metal-text-blue">The House of Kel</span>
+            <span class="net-desc">Our Legacy &amp; Mission</span>
+          </a>
+          <a
+            href="https://thehouseofkel.com/Development/automation.html"
+            target="_blank"
+            rel="noopener"
+            class="net-tile panel sheen-gold accent-gold"
+          >
+            <span class="net-label metal-text-gold">Automation Tools</span>
+            <span class="net-desc">We've Reallocated TIME</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA / CONTACT -->
     <section class="cta-section" id="contact">
       <div class="cta-content">
         <span class="cta-star">★</span>
@@ -1827,20 +2165,19 @@
           that moves fast and closes awards. Agencies and primes: Imperio is a
           verified SDVOSB with active DLA relationships.
         </p>
-
         <div
           class="hero-cta reveal"
           style="justify-content: center; margin-bottom: 0"
         >
-          <a href="mailto:anthony@ifedlog.com" class="btn-primary"
+          <a
+            href="mailto:anthony@ifedlog.com?subject=IFL%20Inquiry"
+            class="btn-primary"
             >Start a Conversation</a
           >
         </div>
-
-        <!-- CHEVRON CONTACT TILES -->
         <div class="chev-row reveal">
           <a
-            href="mailto:anthony@ifedlog.com"
+            href="mailto:anthony@ifedlog.com?subject=IFL%20Inquiry"
             class="chev panel sheen-gold accent-gold lit-target"
             data-color="gold"
           >
@@ -1876,7 +2213,7 @@
 
     <div class="flag-divider"></div>
 
-    <!-- ===== FOOTER ===== -->
+    <!-- FOOTER -->
     <footer>
       <div class="footer-metal"></div>
       <div class="footer-inner">
@@ -1896,11 +2233,12 @@
             <span class="fb fb-gold">VetHUB</span>
             <span class="fb fb-blue">SLED</span>
             <span class="fb fb-red">ESBD</span>
+            <span class="fb fb-gold">SAM.gov Active</span>
+            <span class="fb fb-red">TX Vet Commission</span>
+            <span class="fb fb-blue">CMMC L2 Compliant</span>
           </div>
         </div>
-
         <div class="footer-divider"></div>
-
         <div class="footer-bottom">
           <div class="footer-meta">
             EIN <strong>39-3051520</strong> &nbsp;·&nbsp; CAGE
@@ -1913,8 +2251,31 @@
       </div>
     </footer>
 
+    <div
+      style="
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+      "
+      aria-hidden="true"
+    >
+      Imperio Federal Logistics is a DBA of The House of Kel LLC, a Texas-based
+      Service-Disabled Veteran-Owned Small Business (SDVOSB) headquartered in
+      Killeen, TX. CAGE Code 152U4. SAM.gov registered and active. VetHUB
+      registered with the Texas Veterans Commission. Federal contract services
+      including DLA DIBBS solicitations, government supply procurement, SDVOSB
+      set-aside contracting, and supplier sourcing. NAICS codes: 332999, 339999,
+      423840, 541614. Serving federal agencies, State Local and Education (SLED)
+      markets, and the Texas Electronic State Business Daily (ESBD). Related
+      entities: imperiovita.co, thehouseofkel.com, Imperio Talent Solutions.
+      Founded by Anthony K. Kelley Sr., 21-year U.S. Army veteran. Contact:
+      anthony@ifedlog.com, (254) 226-5216, www.ifedlog.com.
+    </div>
+
     <script>
-      // Stars
       const field = document.getElementById("starsField");
       const starPositions = [
         [8, 12],
@@ -1952,23 +2313,15 @@
         const star = document.createElement("div");
         star.className = "star";
         const size = 8 + Math.random() * 14;
-        star.style.cssText = `
-          left: ${x}%; top: ${y}%;
-          width: ${size}px; height: ${size}px;
-          --dur: ${2 + Math.random() * 4}s;
-          --delay: ${Math.random() * 4}s;
-          --op: ${0.2 + Math.random() * 0.5};
-        `;
+        star.style.cssText = `left:${x}%;top:${y}%;width:${size}px;height:${size}px;--dur:${2 + Math.random() * 4}s;--delay:${Math.random() * 4}s;--op:${0.2 + Math.random() * 0.5};`;
         field.appendChild(star);
       });
 
-      // Nav scroll
       const nav = document.getElementById("nav");
       window.addEventListener("scroll", () => {
         nav.classList.toggle("scrolled", window.scrollY > 60);
       });
 
-      // Reveal
       const obs = new IntersectionObserver(
         (entries) => {
           entries.forEach((e) => {
@@ -1982,7 +2335,6 @@
       );
       document.querySelectorAll(".reveal").forEach((el) => obs.observe(el));
 
-      // Chevron click-to-light
       const chevs = document.querySelectorAll(".chev.lit-target");
       chevs.forEach((c) => {
         c.addEventListener("click", () => {
